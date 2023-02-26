@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,600;1,600&family=Assistant:wght@200&family=Nova+Round&family=Poiret+One&display=swap');
+
+/* 
+Letter Fonts - Imported from Google Fonts
+Archivo Narrow: Use in title without nordic formatation
+Nova Round: Use in title and texts with nordic formatation
+Poiret One: Use only in normal text
+Assistant: 
+
+font-family: 'Assistant', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Nova Round', cursive;
+font-family: 'Poiret One', cursive;
+*/
+
+
+body{
+    height: 400vh;
+    width: 100%;
+    margin: 0px;
+}
+
+/* SONY-TOP-BAR-MENU */
+
+.sony-top-bar-menu{
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sony-write-logo{
+    background-image: url(./images/WriteLogoSonyTopMenu.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 100px;
+
+}
+
+.sony-write-logo{
+    height: 15px;
+    width: auto;
+}
+
+/* TOP-BAR-MENU-BUY-GAME */
+
+.buy-menu-container{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.god-of-war-ragnarok-logotype{
+    height: 70px;
+    width: auto;
+}
+
+.button-comprar-agora{
+    background-color: #d53b00;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 8%;
+}
+
+/* background-wallpaper-top-menu */
+
+#background-wallpaper-top-menu{
+    background-color: #1f1f1f;
+    background-image: url(./images/GodOfWarDynamicWallpaper.webp);
+    background-size: 310%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+/* ABOUT-GOD-OF-WAR-SECTION */
+
+.about-god-of-war-container{
+    background-color: #1f1f1f;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 20% 6% 14% 15% 10% 14% 20%;
+    justify-content: space-evenly;
+    row-gap: 0px;
+}
+
+.title-god-of-war{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 40px;
+}
+
+.publisher{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.avalilable-console-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+.available-margin-format{
+    margin-right: 5px;
+}
+
+.ps-console-box{
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5px;
+    padding: 0px 5px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.game-price{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 23px;
+}
+
+.button-adicionar-ao-carrinho{
+    background-color: #D63D01;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.release-date{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 12px;
+}
+
+.age-restriction-container{
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    display: flex;
+    align-items: center;
+}
+
+#age-restriction-image{
+    background-image: url(./images/age-restriction-image.jpg);
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.warning-text{
+    color: white;
+    margin-left: 5px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 10px;
+}
+
+/* Article - About the game */
+
+.about-the-game-container{
+    background-color: black;
+    color: white;
+}
+
+#article-wallpaper-kratos{
+    background-color: black;
+    background-image: url(./images/aboutGodOfWarBackgroundPhotoshopMobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    width: 100%;
+}
+
+.about-the-game-container{
+    background-color: black;
+    height: 580px;
+    padding: 22px;
+}
+
+.text-about-the-game-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+}
+
+.title-about-god-of-war{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.subtitle-about-god-of-war{
+    font-family: 'Poiret One', cursive;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+/* Article - A Saga Nórdica Continua */
+
+.a-saga-nordica-continua-article{
+    background-color: black;
+    color: white;
+    height: 1200px;
+    padding: 22px;
+    
+}
+
+.a-saga-nordica-continua-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 27px;
+}
+
+.a-saga-nordica-continua-all-topics-formatting{
+    height: 450px;
+    display: grid;
+    margin-top: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 5px;
+}
+
+.a-saga-nordica-continua-topic-formatting{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.a-saga-nordica-continua-image-formatting{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15%;
+    height: 195px;
+    width: 100%;
+}
+
+#um-futuro-nao-escrito-image{
+    background-image: url(./images/article1.png);
+}
+
+#instrumentos-de-guerra-image{
+    background-image: url(./images/article2.png);
+}
+
+#explore-a-vastidao-dos-reinos-image{
+    background-image: url(./images/article3.png); 
+}
+
+.a-saga-nordica-continua-title-formatting{
+    height: 50px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+}
+
+.a-saga-nordica-continua-subtitle-formatting{
+    height: 150px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 16,5px;
+}
+
+#um-futuro-nao-escrito-subtitle-height{
+    height: 100px;
+}
+
+#instrumentos-de-guerra-subtitle-height{
+    height: 150px;
+}
+
+#explore-a-vastidao-dos-reinos-subtitle-height{
+    height: 100px;
+    padding: 0px 5px;
+}
+
+.video-teaser-article{
+    background-color: #1f1f1f;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-teaser-god-of-war{
+    width: 90%;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: 0px 0px 40px black;
+} 
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playstation-logo-footer{
+    width: 50%;
+    height: auto;
+}
